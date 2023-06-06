@@ -48,7 +48,7 @@ print('The data is unbalanced')
 print(f'The proportion of the minority class is {sum(transformed_target)/transformed_target.shape[0]:.2f}\n')
 
 # undersample = CondensedNearestNeighbour(n_neighbors=1)
-undersample = RandomUnderSampler()
+undersample = RandomUnderSampler(random_state=42)
 X, y = undersample.fit_resample(transformed_df, transformed_target)
 
 print('The dataset resulting from undersampling has a shape of', X.shape, 
