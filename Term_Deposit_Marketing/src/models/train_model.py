@@ -76,7 +76,7 @@ print("The mean cross-validation accuracy is: "
       f"{scores.mean():.3f} ± {scores.std():.3f}")
 
 # Overfitting test
-overfitting_test = 1 # Change to 1 to see results
+overfitting_test = 0 # Change to 1 to see results
 if overfitting_test:
     print('An overfitting test with variable max_depth is now running')
     training_accuracies = []
