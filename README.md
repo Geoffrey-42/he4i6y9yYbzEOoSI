@@ -22,8 +22,6 @@ A combination of machine learning and statistical techniques is used to predict 
 The most efficient model, XGBoost, resulted in 0.89 F1-score on the test set after application of cross-validation techniques for hyperparameter selection.
 Other models such as Logistic Regression and Random Forests also yield good results.
 
-## Usage
-
 ## Conclusion
 Through this marketing segmentation approach, distinct customer segments with unique characteristics were identified. 
 This enables targeted marketing strategies and personalized communication.
