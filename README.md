@@ -14,7 +14,7 @@ The target label indicates whether the prospective customer subscribed to the of
 A combination of machine learning and statistical techniques is used to predict the probability of success of a marketing effort based on the prospective client attributes and past interactions. This includes:
 - Under-sampling of a severely imbalanced dataset and usage of cross-validation techniques.
 - Data Scaling and One-Hot Encoding
-- Leveraging the capacities of Decision Trees, Random Forests and XGBoost.
+- Utilizing Decision Trees, Random Forests and XGBoost.
 - Hyperparameter tuning of XGBoost with Optuna
 - Determining segments of customers that should be prioritized
 
