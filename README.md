@@ -1,4 +1,4 @@
-# Marketing Segmentation
+# Financial Customer Segmentation and Market Target Prediction
 Untargeted marketing through call center data would result in an inefficient marketing strategy and low success rate. 
 Here, a robust machine learning system is developped that leverages call center data to reduce the cost of marketing efforts.
 
